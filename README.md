@@ -38,7 +38,7 @@ You can also access the codebook directly from Statistics Canada [here](https://
 | **Code for Descriptive Statistics.R** | R script for generating descriptive statistics.           |
 | **Code for Logistic Regression.R**    | R script for chi-square tests and logistic regression.    |
 | **README.md**                         | Project overview.                                         |
-| **Reproducible Research_GSS2017.Rproj** | R project file.                                           |
+| **CAnD3 Reproducible.Rproj** | R project file.                                           |
 
 ## Instructions for Reproducing the Analysis
 

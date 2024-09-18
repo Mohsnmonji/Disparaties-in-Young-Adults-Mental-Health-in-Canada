@@ -23,7 +23,9 @@ You can also access the codebook directly from Statistics Canada [here](https://
 
 ## Data Citation
 
-- Statistics Canada. 2020. General Social Survey, Cycle 31, 2017 [Canada]: Family (version 2020-09). Statistics Canada [producer and distributor], accessed September 10, 2021. ID: gss-12M0025-E-2017-c-31.
+- Statistics Canada. 2024. General Social Survey, Cycle 31, 2017 [Canada]: Family.
+
+[Cite CCHS 2020 Data](https://www150.statcan.gc.ca/n1/en/catalogue/452500012020001) - https://www150.statcan.gc.ca/n1/en/catalogue/452500012020001
 
 ## Files Included 
 

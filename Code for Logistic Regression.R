@@ -41,7 +41,7 @@ for (test in names(chi_tests)) {
 # Logistic Regression: Self-rated mental health on predictors for young adults aged 18-39
 model <- glm(self_rated_mental_health ~ sex + marital_status + visible_minority_status + 
                household_income + immigrant_status + educational_attainment + age,
-             data = gss_2017_young_adults, family = binomial(link = "logit"))
+             data = gss_2017_young_adults, family = binomial)
 
 # Displaying the summary of the logistic regression model
 summary(model)

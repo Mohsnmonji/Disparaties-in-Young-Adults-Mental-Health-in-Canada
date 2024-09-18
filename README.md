@@ -19,7 +19,7 @@ McGill University's CAnD3 initiative has a license to use the data for training 
 
 The codebook for this data is publicly available through ODESI at: [https://odesi.ca/](https://odesi.ca/).
 
-You can also access the code book directly from Statistics Canada at[Download CCHS 2017 Data](https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat4/c31_2017.zip) - https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat4/c31_2017.zip
+You can also access the code book directly from Statistics Canada at [Download CCHS 2017 Data](https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat4/c31_2017.zip) - https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat4/c31_2017.zip
 
 
 

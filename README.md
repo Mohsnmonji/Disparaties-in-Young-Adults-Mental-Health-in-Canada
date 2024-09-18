@@ -11,7 +11,7 @@ This study explores disparities in self-rated mental health among young adults (
 
 The data used in this study comes from the 2017 General Social Survey (Cycle 31): Family, a Statistics Canada's Public Use Microdata Files (PUMFs). The data is obtained through ODESI, a service provided by the Ontario Council of University Libraries.
 
-Access to ODESI is restricted to users with a DLI License, and it can be used for statistical and research purposes. The terms of the license can be found [here](https://www.statcan.gc.ca/eng/about/research/data/odc-dli).
+Access to ODESI is restricted to users with a DLI License, and it can be used for statistical and research purposes. The terms of the license can be found [here](https://odesi-ca.lib-ezproxy.concordia.ca/en/terms).
 
 McGill University's CAnD3 initiative has a license to use the data for training purposes. Those outside McGill University should not use the data provided through CAnD3's training activities for purposes unrelated to CAnD3 training. Those from another DLI institution should download the data using ODESI through their institution.
 

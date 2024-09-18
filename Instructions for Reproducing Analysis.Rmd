@@ -36,7 +36,7 @@ The GSS-2017 dataset is not included in the repository due to licensing restrict
 
 ---
 
-## Step 3: Running R Scripts
+## Step 3: Run R Scripts
 
 Follow the steps below to reproduce the analysis:
 

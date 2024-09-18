@@ -23,9 +23,9 @@ You can also access the codebook directly from Statistics Canada [here](https://
 
 ## Data Citation
 
-- Statistics Canada. 2024. General Social Survey, Cycle 31, 2017 [Canada]: Family. See:https://www150.statcan.gc.ca/n1/en/catalogue/452500012020001.
+- Statistics Canada. 2024. General Social Survey, Cycle 31, 2017 [Canada]: Family. See [here](https://www150.statcan.gc.ca/n1/en/catalogue/452500012020001).
 
-Statistics Canada. 2024. General Social Survey, Cycle 31, 2017 [Canada]: Family. See [here](https://www150.statcan.gc.ca/n1/en/catalogue/452500012020001).
+
 
 ## Files Included 
 

@@ -48,7 +48,7 @@ First, run the `Code for Data Wrangling.R` script. This will recode the variable
 
 Second, run the `Code for Descriptive Statistics.R` script. It will first filter the saved dataset from the previous step to include only young adults (aged 18-39) and then calculate the frequencies and proportions of self-rated mental health by various predictors such as sex, marital status, household income, etc.
 
-### 3.3 Chi-Square and Logistic Regression
+### 3.3 Chi-Square Tests and Logistic Regression
 
 Third, run the `Code for Logistic Regression.R` script. It will perform chi-square tests for associations between self-rated mental health and the categorical predictors. It will also fit a logistic regression model to further explore these associations adjusting for confounders. The script will display the results of the chi-square tests and the logistic regression model, including odds ratios and confidence intervals.
 

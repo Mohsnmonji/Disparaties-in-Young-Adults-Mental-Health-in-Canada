@@ -9,7 +9,7 @@ This study explores disparities in self-rated mental health among young adults (
 
 ## Data Description
 
-The data used in this study comes from the 2017 General Social Survey (Cycle 31): Families, Statistics Canada's Public Use Microdata Files (PUMFs) obtained through ODESI, a service provided by the Ontario Council of University Libraries.
+The data used in this study comes from the 2017 General Social Survey (Cycle 31): Family, a Statistics Canada's Public Use Microdata Files (PUMFs). The data is obtained through ODESI, a service provided by the Ontario Council of University Libraries.
 
 Access to ODESI is restricted to users with a DLI License, and it can be used for statistical and research purposes. The terms of the license can be found [here](https://www.statcan.gc.ca/eng/about/research/data/odc-dli).
 
@@ -38,7 +38,7 @@ The codebook for this data is publicly available through ODESI at: [https://odes
 
 ## Instructions for Reproducing the Analysis
 
-For detailed instructions on how to reproduce the analysis, including how to download the dataset and run the R scripts, please refer to the `Instruction for Reproducing Analysis.Rmd` file available in this repository.The instruction file will guide you through running the R Scripts for data cleaning, descriptive statistics, and logistic regression.
+For detailed instructions on how to reproduce the analysis, please refer to the `Instructions for Reproducing Analysis.Rmd` file available in this repository.The instructions file will guide you through running the R Scripts for data cleaning, descriptive statistics, and logistic regression analysis.
 
 ---
 

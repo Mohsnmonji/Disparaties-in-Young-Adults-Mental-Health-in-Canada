@@ -17,7 +17,7 @@ This document provides an overview of the steps required to reproduce the analys
 
 1. `Data Wrangling`: Cleaning and recoding variables.
 2. `Descriptive Statistics`: Producing frequencies and proportions of self-rated mental health by various socio-demographic variables among young adults (aged 18-39).
-3. `Chi-Square and Logistic Regression`: Analyzing associations between self-rated mental health and predictors using chi-square tests and logistic regression.
+3. `Chi-Square Tests and Logistic Regression`: Analyzing associations between self-rated mental health and predictors using chi-square tests and logistic regression.
 
 ---
 

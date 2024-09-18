@@ -5,7 +5,7 @@ library(sjPlot)
 
 # Loading raw data
 # This assumes that you downloaded the GSS-2017 data and renamed it to 'gss2017.csv' 
-# and placed it  in the main directory of the cloned repository or where you placed the downloaded R scripts.
+# and placed it  in the main directory where you placed the downloaded R scripts.
 
 gss_2017 <- read_csv("gss2017.csv")
 

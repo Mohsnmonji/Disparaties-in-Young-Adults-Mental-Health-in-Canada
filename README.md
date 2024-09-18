@@ -17,7 +17,7 @@ McGill University's CAnD3 initiative has a license to use the data for training 
 
 ## Codebook
 
-The codebook for this dataset is publicly available through ODESI at: [here](https://odesi.ca/).
+The codebook for this dataset is publicly available through ODESI [here](https://odesi.ca/).
 
 You can also access the codebook directly from Statistics Canada [here](https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat4/c31_2017.zip).
 

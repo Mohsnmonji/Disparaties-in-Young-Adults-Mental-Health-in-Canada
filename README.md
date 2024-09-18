@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This study explores disparities in self-rated mental health among young adults (aged 18-39) in Canada using data from the 2017 General Social Survey (Cycle 31): Family. This repository contains the R scripts required to reproduce the analysis, including data cleaning, descriptive statistics, and chi-square tests and logistic regression analysis.
+This study explores disparities in Perceived mental health among young adults (aged 18-39) in Canada using data from the 2017 General Social Survey (Cycle 31): Family. This repository contains the R scripts required to reproduce the analysis, including data cleaning, descriptive statistics, and chi-square tests and logistic regression analysis.
 
 
 ## Data Description

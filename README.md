@@ -28,13 +28,13 @@ The codebook for this data is publicly available through ODESI at: [https://odes
 
 | **File**                              | **Description**                                          |
 |---------------------------------------|----------------------------------------------------------|
-| **Code for Logistic Regression.R**    | R script for chi-square tests and logistic regression.     |
-| **Code for Data Wrangling.R**                    | R script for data recoding and handling missing cases.
-| **Code for Descriptive_Statistics.R** | R script for generating  descriptive statistics. |
+| **Files.zip**                         | Zip folder containing all project files.           |
 | **Instructions for Reproducing Analysis.Rmd** | RMarkdown file with instructions for reproducing the analysis. |
-| **README.md**                           | Project overview.                        |
+| **Code for Data Wrangling.R**         | R script for data recoding and handling missing cases.    |
+| **Code for Descriptive_Statistics.R** | R script for generating descriptive statistics.           |
+| **Code for Logistic Regression.R**    | R script for chi-square tests and logistic regression.    |
+| **README.md**                         | Project overview.                                         |
 | **Reproducible Research_GSS2017.Rproj** | R project file.                                           |
-
 
 ## Instructions for Reproducing the Analysis
 

@@ -1,6 +1,6 @@
 
 ---
-# CAnD3 Reproducible Research Project - GSS 2017
+# CAnD3 Reproducible Research Project
 
 ## Project Overview
 

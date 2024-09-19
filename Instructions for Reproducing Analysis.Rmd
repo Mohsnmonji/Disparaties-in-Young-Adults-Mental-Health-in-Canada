@@ -42,7 +42,7 @@ Follow the steps below to reproduce the analysis:
 
 ### 3.1 Data Wrangling
 
-First, run the `Code for Data Wrangling.R` script. This will recode the variables of interest, drop cases with missing values, and output a cleaned dataset with only the selected variables named (`gss_2017_selected.csv`), which is used in the subsequent analysis. The `gss_2017_selected.csv` will be saved in the main directory where the R scripts are located.
+First, run the `Code for Data Wrangling.R` script. This will recode the variables of interest, drop all cases with missing values list-wise, and output a cleaned dataset with only the selected variables named (`gss_2017_selected.csv`), which is used in the subsequent analysis. The `gss_2017_selected.csv` will be saved in the main directory where the R scripts are located.
 
 ### 3.2  Descriptive Statistics
 

@@ -10,7 +10,26 @@ gss_2017_selected <- read_csv("gss_2017_selected.csv")
 # Filtering the cleaned data to include only young adults aged 18-39
 gss_2017_young_adults <- gss_2017_selected %>% filter(age >= 18 & age <= 39)
 
-# Calculating frequencies and proportions of self-rated 
+# Turning categorical variables into factor 
+gss_2017_young_adults <- gss_2017_young_adults %>%
+  mutate(
+    self_rated_mental_health = factor(self_rated_mental_health, levels = c(0, 1), labels = c("Excellent/Very Good/Good", "Poor/Fair")),
+    sex = factor(sex, levels = c(0, 1), labels = c("Male", "Female")),
+    marital_status = factor(marital_status, levels = c(0, 1, 2), labels = c("Married/Common Law", "Single", "Divorced/Widowed")),
+    visible_minority_status = factor(visible_minority_status, levels = c(0, 1), labels = c("Not Visible Minority", "Visible Minority")),
+    household_income = factor(household_income, levels = c(0, 1, 2), labels = c("< 50k", "50k-99k", "100k+")),
+    immigrant_status = factor(immigrant_status, levels = c(0, 1), labels = c("Non-Immigrant", "Immigrant")),
+    educational_attainment = factor(educational_attainment, levels = c(0, 1, 2), labels = c("Less than High School", "High School/Trade/College", "University Degree"))
+  )
+
+# Create and display the sample characteristics table
+gss_2017_young_adults %>%
+  tbl_summary(missing = "no") %>%
+  as_gt() %>%
+  gt::tab_header(title = "Sample Characteristics: GSS 2017 Young Adults (Age 18-39)")
+
+
+# Calculating frequencies and proportions of self-rated mental health by predictors
 
 calc_freq_prop <- function(variable) {
   freq <- table(gss_2017_young_adults$self_rated_mental_health, variable)

@@ -68,6 +68,6 @@ print(combined_table)
 # Displaying a publishable table
 
 tab_df(combined_table,
-       title = "Unweighted Proportion of Self-Rated Mental Health by Predictors",
+       title = "Unweighted Frequency and Proportion of Self-Rated Mental Health by Predictors",
        show.rownames = FALSE,
        digits = 2)

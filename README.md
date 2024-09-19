@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This study investigates disparities in self-rated mental health among young adults aged 18-39 in Canada, across socio-demographic characteristics, using data from the 2017 General Social Survey, Public Microdata Files. After adjusting for age, household income, and other confounders, the results show that **being female** and **single** or **divorced or widowed** were significantly associated with higher odds of reporting poor or fair mental health compared to males those who were married or in common-law relationships, respectively.
+This study investigates disparities in self-rated mental health among young adults aged 18-39 in Canada, across socio-demographic characteristics, using data from the 2017 General Social Survey, Public Microdata Files. After adjusting for age, household income, and other confounders, the results show that being **female** and **single** or **divorced or widowed** were significantly associated with higher odds of reporting poor or fair mental health compared to males those who were married or in common-law relationships, respectively.
 
 In contrast, **higher household income** was protective against poor/fair mental health, with individuals in households earning $100k or more having significantly lower odds of reporting poor/fair mental health compared to those with a household income of less than $50k. **Being an immigrant** was also associated with lower odds of reporting poor or fair mental health compared to non-immigrants.
 

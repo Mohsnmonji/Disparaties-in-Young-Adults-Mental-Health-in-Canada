@@ -60,7 +60,7 @@ This study explored the associations between self-rated mental health and socio-
 
 In contrast, **higher household income** was protective against poor/fair mental health, with those in households earning $100k or more having significantly lower odds (OR = 0.60, 95% CI: 0.47, 0.77, p < 0.001) compared to individuals in households earning less than $50k. Being an **immigrant** was also associated with lower odds of reporting poor or fair mental health compared to non-immigrants (OR = 0.67, 95% CI: 0.46, 0.97, p = 0.036).
 
-Regarding education, **having a university degree** was significantly associated with lower odds of poor mental health compared to individuals with less than a high school education (OR = 0.55, 95% CI: 0.37, 0.85, p = 0.003). No significant associations were found for **visible minority status** (OR = 0.83, 95% CI: 0.61, 1.23, p = 0.227), **middle household income** (OR = 0.86, 95% CI: 0.67, 1.13, p = 0.211), or **lower levels of educational attainment** at the high school/trade/college level (OR = 0.76, 95% CI: 0.54, 1.07, p = 0.124) compared to less than high school.
+Regarding education, having a **university degree** was significantly associated with lower odds of poor mental health compared to individuals with less than a high school education (OR = 0.55, 95% CI: 0.37, 0.85, p = 0.003). No significant associations were found for **visible minority status** (OR = 0.83, 95% CI: 0.61, 1.23, p = 0.227), **middle household income** (OR = 0.86, 95% CI: 0.67, 1.13, p = 0.211), or **educational attainment** at the high school/trade/college level (OR = 0.76, 95% CI: 0.54, 1.07, p = 0.124) compared to less than high school.
 
 ---
 

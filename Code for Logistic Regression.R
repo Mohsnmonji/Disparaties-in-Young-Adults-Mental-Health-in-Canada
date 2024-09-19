@@ -57,8 +57,8 @@ regression_table <- tbl_regression(
   exponentiate = TRUE  
 ) %>%
   add_global_p() %>%  
-  modify_header(label ~ "**Variable**", estimate ~ "**Odds Ratio**") %>%
-  modify_caption("**Logistic Regression Results: Self-Rated Mental Health and Predictors**")
+  modify_header(label ~ "Variable", estimate ~ "Odds Ratio") %>%
+  modify_caption("Logistic Regression: Self-Rated Mental Health on Predictors")
 
 # Print the regression table
 regression_table

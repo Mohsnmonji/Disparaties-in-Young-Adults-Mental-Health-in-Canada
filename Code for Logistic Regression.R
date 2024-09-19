@@ -1,9 +1,8 @@
 # Load required libraries
-
 library(tidyverse)
-
+library(gtsummary)
+library(broom)
 # Load the cleaned dataset saved in the data wrangling step
-
 gss_2017_selected <- read_csv("gss_2017_selected.csv")
 
 # Filtering the cleaned data to include only young adults aged 18-39
@@ -51,3 +50,15 @@ model_output <- tidy(model, conf.int = TRUE, exponentiate = TRUE)
 
 # Print the tidy model output
 print(model_output)
+
+# Displaying the summary of the logistic regression in a publishable table format
+regression_table <- tbl_regression(
+  model,
+  exponentiate = TRUE  # Exponentiate to show Odds Ratios instead of log-odds
+) %>%
+  add_global_p() %>%  # Adds a p-value for the overall model
+  modify_header(label ~ "**Variable**", estimate ~ "**Odds Ratio**") %>%
+  modify_caption("**Logistic Regression Results: Self-Rated Mental Health and Predictors**")
+
+# Print the regression table
+regression_table

@@ -26,7 +26,7 @@ gss_2017_young_adults <- gss_2017_young_adults %>%
 gss_2017_young_adults %>%
   tbl_summary(missing = "no") %>%
   as_gt() %>%
-  gt::tab_header(title = "Sample Characteristics: GSS 2017 Young Adults (Age 18-39)")
+  gt::tab_header(title = "Table 1: Sample Characteristics-GSS 2017 Young Adults (Age 18-39)")
 
 # Calculating frequencies and proportions of self-rated mental health by predictors
 
@@ -68,6 +68,6 @@ print(combined_table)
 # Displaying a publishable table
 
 tab_df(combined_table,
-       title = "Unweighted Frequency and Proportion of Self-Rated Mental Health by Predictors",
+       title = "Table2: Frequencies and Percentages of Self-Rated Mental Health by Predictors",
        show.rownames = FALSE,
        digits = 2)

@@ -46,14 +46,8 @@ model <- glm(self_rated_mental_health ~ sex + marital_status + visible_minority_
 # Displaying the summary of the logistic regression model
 summary(model)
 
-# Displaying odds ratios for easier interpretation
-odds_ratios <- exp(coef(model))
-cat("Odds Ratios:\n")
-print(odds_ratios)
+# displaying the output in a table with odds ratios and confidence intervals
+model_output <- tidy(model, conf.int = TRUE, exponentiate = TRUE)
 
-# Creating confidence intervals for the odds ratios
-
-odds_ratios_ci <- exp(confint(model))
-cat("Confidence Intervals for Odds Ratios:\n")
-
-print(odds_ratios_ci)
+# Print the tidy model output
+print(model_output)

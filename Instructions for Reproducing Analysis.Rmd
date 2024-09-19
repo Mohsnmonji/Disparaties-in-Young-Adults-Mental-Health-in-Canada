@@ -54,7 +54,7 @@ Third, run the `Code for Logistic Regression.R` script. It will perform chi-squa
 
 ---
 
-### Conclusion
+## Conclusion
 
 This study explored the associations between self-rated mental health and socio-demographic characteristics among young adults aged 18-39 in Canada, using data from the 2017 General Social Survey, Public Microdata Files. After adjusting for age, household income, and other confounders, the results showed that being **female** (OR = 1.49, 95% CI: 1.23, 1.80, p < 0.001) and **single** (OR = 1.86, 95% CI: 1.48, 2.35, p < 0.001) or **divorced/ widowed** (OR = 1.98, 95% CI: 1.24, 3.06, p = 0.003) were significantly associated with higher odds of reporting poor or fair mental health compared to males and those who were married or in common-law relationships, respectively.
 

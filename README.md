@@ -55,11 +55,13 @@ For detailed instructions on how to reproduce the analysis, please refer to the 
 
 - `tidyverse`
 - `sjPlot`
+- `gtsummary`
+- `broom`
 
 To install the required R packages, run:
 
 ```r
-install.packages(c("tidyverse", "sjPlot"))
+install.packages(c("tidyverse", "sjPlot"), ("gtsummary"), ("broom"))
 ```
 
 ---

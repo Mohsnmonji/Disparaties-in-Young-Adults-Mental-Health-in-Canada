@@ -22,7 +22,7 @@ gss_2017_young_adults <- gss_2017_young_adults %>%
     educational_attainment = factor(educational_attainment, levels = c(0, 1, 2), labels = c("Less than High School", "High School/Trade/College", "University Degree"))
   )
 
-# Create and display the sample characteristics table
+# Creating and displaying the sample characteristics in a publishable table
 gss_2017_young_adults %>%
   tbl_summary(missing = "no") %>%
   as_gt() %>%

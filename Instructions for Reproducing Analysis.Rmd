@@ -63,5 +63,3 @@ This analysis explored the associations between self-rated mental health and dem
 By following the steps outlined above, you will be able to reproduce the analysis of disparities in self-rated mental health among young adults (aged 18-39) in Canada using the 2017 General Social Survey data. Ensure the dataset is placed in the correct directory, and run the R scripts to reproduce this analysis.
 
 If you encounter any issues, feel free to reach out for assistance!
-
-

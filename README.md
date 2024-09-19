@@ -4,8 +4,6 @@
 
 ## Project Overview
 
-Here’s the revised version of your text, incorporating the findings for university degree and other necessary edits:
-
 ---
 
 This study explores the associations between self-rated mental health and demographic and socioeconomic predictors among young adults aged 18-39 in Canada, using data from the 2017 General Social Survey, Public Microdata Files. The results showed that **being female** and **being single** were significantly associated with higher odds of reporting poor or fair mental health among young adults. Similarly, young adults who were **divorced or widowed** had higher odds of poor mental health. On the other hand, **higher household income** was protective against poor/fair mental health, with those earning $100k or more having significantly lower odds. **Being an immigrant** and **having a university degree** were also associated with lower odds of reporting poor/fair mental health, while no significant associations were found for visible minority status, middle household income, or lower levels of educational attainment (high school/trade/college).

@@ -1,6 +1,6 @@
 # Load required libraries
-
 library(tidyverse)
+library(gtsummary)
 library(sjPlot)
 
 # Load the cleaned dataset saved in the previous step
@@ -27,7 +27,6 @@ gss_2017_young_adults %>%
   tbl_summary(missing = "no") %>%
   as_gt() %>%
   gt::tab_header(title = "Sample Characteristics: GSS 2017 Young Adults (Age 18-39)")
-
 
 # Calculating frequencies and proportions of self-rated mental health by predictors
 

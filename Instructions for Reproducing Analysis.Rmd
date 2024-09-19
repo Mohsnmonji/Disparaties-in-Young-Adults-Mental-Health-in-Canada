@@ -3,8 +3,8 @@ title: "Instructions for Reproducing This Analysis"
 author: "Mohsen Monji"
 date: "2024-09-16"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include = FALSE}

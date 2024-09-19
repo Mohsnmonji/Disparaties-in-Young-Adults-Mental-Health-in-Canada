@@ -46,13 +46,17 @@ First, run the `Code for Data Wrangling.R` script. This will recode the variable
 
 ### 3.2  Descriptive Statistics
 
-Second, run the `Code for Descriptive Statistics.R` script. It will first filter the saved dataset from the previous step to include only young adults (aged 18-39) and then calculate the frequencies and proportions of self-rated mental health by various predictors such as sex, marital status, household income, etc.
+Second, run the `Code for Descriptive Statistics.R` script. It will first filter the saved dataset from the previous step to include only young adults (aged 18-39) and then will create a sample characteritics table(table 1) and calculate the frequencies and percentages of self-rated mental health by all predictors such as sex, marital status, household income, etc(table 2).
 
 ### 3.3 Chi-Square Tests and Logistic Regression
 
-Third, run the `Code for Logistic Regression.R` script. It will perform chi-square tests for associations between self-rated mental health and the categorical predictors. It will also fit a logistic regression model to further explore these associations adjusting for confounders. The script will display the results of the chi-square tests and the logistic regression model, including odds ratios and confidence intervals.
+Third, run the `Code for Logistic Regression.R` script. It will perform chi-square tests for associations between self-rated mental health and the categorical predictors. It will also fit a logistic regression model to further explore these associations adjusting for confounders. The script will display the results of the chi-square tests and the logistic regression model, and will create a table of the logistic regression output(table 3).
 
 ---
+### Conclusion
+
+This analysis explored the associations between self-rated mental health and demographic and socioeconomic predictors among young adults aged 18-39 in Canada, using data from the 2017 General Social Survey, Public Microdata Files provided by Statistics Canada and accessed through ODESI. The results show that **being female** (OR = 1.49, 95% CI: 1.23, 1.80, p < 0.001) and **being single** (OR = 1.86, 95% CI: 1.48, 2.35, p < 0.001) were significantly associated with higher odds of reporting poor or fair mental health. Similarly, individuals who were **divorced or widowed** had higher odds of poor mental health (OR = 1.98, 95% CI: 1.24, 3.06, p = 0.003). On the other hand, **higher household income** was protective against poor mental health, with those earning $100k or more having significantly lower odds (OR = 0.60, 95% CI: 0.47, 0.77, p < 0.001). **Immigrant status** was also associated with lower odds of poor mental health (OR = 0.67, 95% CI: 0.46, 0.97, p = 0.036), while no significant associations were found for visible minority status, middle household income, or lower levels of educational attainment. The results also show that age is not a significant predictor of poor or fair mental health (OR = 0.99, 95% CI: 0.97, 1.01, p = 0.197).
+
 
 ## Final Words
 

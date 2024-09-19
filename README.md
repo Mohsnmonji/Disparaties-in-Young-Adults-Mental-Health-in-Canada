@@ -62,7 +62,7 @@ For detailed instructions on how to reproduce the analysis, please refer to the 
 To install the required R packages, run:
 
 ```r
-install.packages(c("tidyverse", "sjPlot"), ("gtsummary"), ("broom"))
+install.packages(c("tidyverse", "sjPlot", "gtsummary", "broom"))
 ```
 
 ---

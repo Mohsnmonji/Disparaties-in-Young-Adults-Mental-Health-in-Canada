@@ -47,11 +47,6 @@ combined_table <- tibble(
 # Displaying the combined table
 print(combined_table)
 
-# Creating a  table 
-combined_table %>% knitr::kable(
-  caption = "Unweighted Proportion of Self-Rated Mental Health by Predictors", digits = 2
-)
-
 # Displaying a publishable table
 
 tab_df(combined_table,

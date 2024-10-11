@@ -1,0 +1,71 @@
+---
+title: "Instructions for Reproducing Analysis"
+author: "Mohsen Monji"
+date: "2024-09-16"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+## Introduction
+
+This document provides an overview of the steps required to reproduce the analysis of disparities in self-rated mental health among young adults (aged 18-39) in Canada using the 2017 General Social Survey-Public Microdata Files. The analysis is organized into three stages using three R scripts:
+
+1. `Data Wrangling`: Cleaning and recoding variables.
+2. `Descriptive Statistics`: Producing frequencies and proportions of self-rated mental health by various socio-demographic variables among young adults (aged 18-39).
+3. `Chi-Square Tests and Logistic Regression`: Analyzing associations between self-rated mental health and predictors using chi-square tests and logistic regression.
+
+---
+
+## Step 1: Download Files.zip in this repository
+
+Download the Files.zip in this repository, unzip it and save it in a directory of your choice on your machine.
+
+---
+
+## Step 2: Download the GSS 2017 Dataset
+
+The GSS-2017 dataset is not included in the repository due to licensing restrictions. Download it from ODESI at [https://odesi.ca/] and follow the steps below:
+
+1. Unzip the file and rename it to `gss2017.csv`.
+2. Move the `gss2017.csv` file to the main directory that you placed the R scripts in the Files.zip.
+
+---
+
+## Step 3: Run R Scripts
+
+Follow the steps below to reproduce the analysis:
+
+### 3.1 Data Wrangling
+
+First, run the `Code for Data Wrangling.R` script. This will recode the variables of interest, drop all cases with missing values list-wise, and output a cleaned dataset with only the selected variables named (`gss_2017_selected.csv`), which is used in the subsequent analysis. The `gss_2017_selected.csv` will be saved in the main directory where the R scripts are located.
+
+### 3.2  Descriptive Statistics
+
+Second, run the `Code for Descriptive Statistics.R` script. It will first filter the saved dataset from the previous step to include only young adults (aged 18-39) and then will create a sample characteritics table(table 1) and calculate the frequencies and percentages of self-rated mental health by all predictors such as sex, marital status, household income, etc(table 2).
+
+### 3.3 Chi-Square Tests and Logistic Regression
+
+Third, run the `Code for Logistic Regression.R` script. It will perform chi-square tests for associations between self-rated mental health and the categorical predictors. It will also fit a logistic regression model to further explore these associations adjusting for confounders. The script will display the results of the chi-square tests and the logistic regression model, and will create a table of the logistic regression output(table 3).
+
+---
+
+## Conclusion
+
+This study explored the associations between self-rated mental health and socio-demographic characteristics among young adults aged 18-39 in Canada, using data from the 2017 General Social Survey, Public Microdata Files. After adjusting for age, household income, and other confounders, the results showed that being **female** (OR = 1.49, 95% CI: 1.23, 1.80, p < 0.001) and **single** (OR = 1.86, 95% CI: 1.48, 2.35, p < 0.001) or **divorced/ widowed** (OR = 1.98, 95% CI: 1.24, 3.06, p = 0.003) were significantly associated with higher odds of reporting poor or fair mental health compared to males and those who were married or in common-law relationships, respectively.
+
+In contrast, **higher household income** was protective against poor/fair mental health, with those in households earning $100k or more having significantly lower odds (OR = 0.60, 95% CI: 0.47, 0.77, p < 0.001) compared to individuals in households earning less than $50k. Being an **immigrant** was also associated with lower odds of reporting poor or fair mental health compared to non-immigrants (OR = 0.67, 95% CI: 0.46, 0.97, p = 0.036).
+
+Regarding education, having a **university degree** was significantly associated with lower odds of poor mental health compared to individuals with less than a high school education (OR = 0.55, 95% CI: 0.37, 0.85, p = 0.003). No significant associations were found for **visible minority status** (OR = 0.83, 95% CI: 0.61, 1.23, p = 0.227), **middle household income** (OR = 0.86, 95% CI: 0.67, 1.13, p = 0.211), or **educational attainment** at the high school/trade/college level (OR = 0.76, 95% CI: 0.54, 1.07, p = 0.124) compared to less than high school.
+
+---
+
+## Final Words
+
+By following the steps outlined above, you will be able to reproduce the analysis of disparities in self-rated mental health among young adults (aged 18-39) in Canada using the 2017 General Social Survey data. Ensure the dataset is placed in the correct directory, and run the R scripts to reproduce this analysis.
+
+If you encounter any issues, feel free to reach out for assistance!

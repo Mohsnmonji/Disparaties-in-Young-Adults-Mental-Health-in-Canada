@@ -16,45 +16,53 @@ gss_2017 <- gss_2017 %>%
     # Recoding Self-Rated Mental Health with new labels
     self_rated_mental_health = case_when(
       SRH_115 %in% 1:3 ~ 0,
-      SRH_115 %in% 4:5 ~ 1
+      SRH_115 %in% 4:5 ~ 1,
+      TRUE ~ NA_real_ 
     ),
     # Recoding Sex
     sex = case_when(
       SEX == 1 ~ 0,
-      SEX == 2 ~ 1
+      SEX == 2 ~ 1,
+      TRUE ~ NA_real_ 
     ),
     # Recoding Marital Status
     marital_status = case_when(
       MARSTAT %in% 1:2 ~ 0, 
       MARSTAT == 6 ~ 1, 
-      MARSTAT %in% 3:5 ~ 2
+      MARSTAT %in% 3:5 ~ 2,
+      TRUE ~ NA_real_ 
     ),
     # Recoding Visible Minority Status
     visible_minority_status = case_when(
       VISMIN == 1 ~ 1, 
-      VISMIN == 2 ~ 0
+      VISMIN == 2 ~ 0,
+      TRUE ~ NA_real_ 
     ),
     # Recoding Household Income
     household_income = case_when(
       FAMINCG2 %in% 1:2 ~ 0, 
       FAMINCG2 %in% 3:4 ~ 1, 
-      FAMINCG2 %in% 5:6 ~ 2
+      FAMINCG2 %in% 5:6 ~ 2,
+      TRUE ~ NA_real_ 
     ),
     # Recoding Immigrant Status
     immigrant_status = case_when(
       BPR_16 == 1 ~ 1, 
-      BPR_16 %in% c(2, 6) ~ 0
+      BPR_16 %in% c(2, 6) ~ 0,
+      TRUE ~ NA_real_ 
     ),
     # Recoding Educational Attainment
     educational_attainment = case_when(
       EHG3_01B == 1 ~ 0, 
       EHG3_01B %in% 2:4 ~ 1, 
-      EHG3_01B %in% 5:7 ~ 2
+      EHG3_01B %in% 5:7 ~ 2,
+      TRUE ~ NA_real_ 
     ),
     # Recoding Age
     age = case_when(
       AGEC == 80 ~ 80,
-      AGEC >= 15 & AGEC <= 79 ~ AGEC
+      AGEC >= 15 & AGEC <= 79 ~ AGEC,
+      TRUE ~ NA_real_ 
     )
   )
 

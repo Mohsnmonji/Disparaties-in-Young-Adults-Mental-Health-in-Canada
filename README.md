@@ -29,11 +29,10 @@ You can also access the codebook directly from Statistics Canada [here](https://
 - Statistics Canada. 2020. General Social Survey, Cycle 31, 2017 [Canada]: Family. See [here](https://www150.statcan.gc.ca/n1/en/catalogue/452500012020001).
 
 
-## Files Included 
+## Files Included
 
 | **File**                              | **Description**                                          |
 |---------------------------------------|----------------------------------------------------------|
-| **Files.zip**                         | Zip folder containing all project files.                 |
 | **Output Tables**                     | Folder containing tables of sample characteristics, cross-tab, and logistic regression output. |
 | **Instructions for Reproducing Analysis.Rmd** | RMarkdown file with instructions for reproducing the analysis. |
 | **Instructions for Reproducing Analysis.pdf** | PDF version of the instructions for reproducing the analysis. |

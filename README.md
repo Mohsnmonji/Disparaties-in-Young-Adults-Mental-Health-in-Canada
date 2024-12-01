@@ -81,7 +81,11 @@ install.packages(c("tidyverse", "sjPlot", "gt", "gtsummary", "broom"))
 - **R Version**: R version 4.4.1 (2024-06-14)
 
 ## License
+## License
 
+This repository is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE). 
+
+Note: The license applies only to the code and documentation in this repository. Proprietary datasets or third-party content are not included under this license.
 
 ---
 

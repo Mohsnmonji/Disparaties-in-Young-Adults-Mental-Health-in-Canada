@@ -21,18 +21,23 @@ This document provides an overview of the steps required to reproduce the analys
 
 ---
 
-## Step 1: Download Files.zip in this repository
+## Step 1: Clone this Repository
 
-Download the Files.zip in this repository, unzip it and save it in a directory of your choice on your machine.
+Clone this repository to your local machine using the following command in your terminal or Git Bash:
 
----
+git clone https://github.com/Mohsnmonji/Inequalities-in-Young-Adults-Mental-Health-in-Canada.git
+
+
+All necessary R scripts will be included in the cloned repository.
+
+--- 
 
 ## Step 2: Download the GSS 2017 Dataset
 
 The GSS-2017 dataset is not included in the repository due to licensing restrictions. Download it from ODESI at [https://odesi.ca/] and follow the steps below:
 
 1. Unzip the file and rename it to `gss2017.csv`.
-2. Move the `gss2017.csv` file to the main directory that you placed the R scripts in the Files.zip.
+2.Move the `gss2017.csv` file to the main directory of the cloned repository (where the R scripts are located).
 
 ---
 
